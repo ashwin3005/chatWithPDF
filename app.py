@@ -29,6 +29,7 @@ with st.sidebar:
     #### Resources:
     [Prompt Engineer](https://youtube.com/@engineerprompt)   
     ''')
+    st.write('By [@ashwin3005](https://github.com/ashwin3005) ')
 
 
 def main():
