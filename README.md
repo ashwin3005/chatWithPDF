@@ -48,4 +48,4 @@ You're all set! Now you can run the sample code. Here's how:
 streamlit run app.py
 ```
 
-You need OPENAI_API_KEY to run this
+You need OPENAI_API_KEY to run this.
