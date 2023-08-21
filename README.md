@@ -13,7 +13,9 @@ Follow these instructions to set up a virtual environment and install project de
    ```bash
    git clone https://github.com/ashwin3005/chatWithPDF
    cd your-projectchatWithPDF
-   
+
+   ```
+
 **Create a virtual environment** (replace venv with your preferred virtual environment name):
 python -m venv venv
 Activate the virtual environment:
@@ -23,9 +25,10 @@ Activate the virtual environment:
 ```bash
 venv\Scripts\activate
 ```
+
 **On macOS and Linux**:
 
-``` bash
+```bash
 source venv/bin/activate
 ```
 
@@ -35,6 +38,7 @@ Once the virtual environment is activated, install the project dependencies from
 ```bash
 pip install -r requirements.txt
 ```
+
 This will install all the required packages specified in the requirements.txt file.
 
 **Running the Sample**
@@ -44,3 +48,4 @@ You're all set! Now you can run the sample code. Here's how:
 streamlit run app.py
 ```
 
+You need OPENAI_API_KEY to run this
